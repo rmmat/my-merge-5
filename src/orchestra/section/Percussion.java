@@ -3,9 +3,11 @@ package orchestra.section;
 public class Percussion extends Section {
 
     public Percussion() {
-        super("Percusson");
-        addInstrucment("Snare Drum");
-        addInstrucment("Bass Drum");
+        super("Percussion");
         addInstrucment("Timpani");
+        addInstrucment("Bass Drum");
+        addInstrucment("Snare Drum");
+        addInstrucment("Cymbals");
+        addInstrucment("Xylophone");
     }
 }
